@@ -1,6 +1,7 @@
 window.addEventListener('keydown', (event) => {
   switch (event.key) {
     case 'w':
+      // can sometimes double jump by holding down w
       if (player.velocity.y === 0) player.velocity.y = -15
       break
     case 'a':
